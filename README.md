@@ -1,5 +1,6 @@
 # Virtual Reality Driving Sim
 A guidebook for building and customizing a virtual reality driving simulator for use in human factors and psychology research
+## How To Use This Project
 
 ## Getting Started
 These instructions will walk you through how to install Microsoft Air Sim in Unity and the project files  up and running on your local machine for development and testing purposes.
@@ -25,7 +26,13 @@ The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/m
 * Build the unity project: build.cmd.
 
 #### Downloading Windridge City
+* After the Unity project is built, go to open a new Unity project and create a scene
+* Go to the Asset Store and search "Windridge City" and download the asset of the same name
+* After downloading there should be a folder in your scene titled `Folder Title here` with a subfolder `Scenes` that holds a scene titled `Windridge City Demo`. Double click on this scene to launch
+* Upon opening this scene and trying to run it, a whole host of errors will pop up. The reason for this is the correct postprocessing package is not installed. Go to the `Window` tab in Unity and click on package manager in the drop down menu.
+* Go to the Postprocessing tab and select `Install` for the most recent version of the postprocessing script. If the Postprocessing tab is not appearing, switch the view from In Project to All
+* Air Sim should be fully set up after this point
 
-## Trigger Commands
+## Using the Fil
 
 
