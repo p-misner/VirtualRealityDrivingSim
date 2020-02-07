@@ -9,6 +9,9 @@ These instructions will walk you through how to install Microsoft Air Sim in Uni
 
 Download the [Unity Engine](https://unity.com/). When instaled, Microsoft Air Sim comes with some sample Unity scenes and a wrapper around the AirLib library to run as a native plugin in Unity.
 
+### Background Knowledge
+This guidebook assumes that users have prior knowledge of the basics of Unity -- i.e. creating GameObjects, C# scripts, physics properties and components, and integrating assets from the Unity Asset store.
+
 ### Installing Microsoft Air Sim
 The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/Unity/README.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
 
