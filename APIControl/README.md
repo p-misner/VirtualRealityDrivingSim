@@ -9,7 +9,7 @@ AirSim exposes APIs for car and simulation control and feedback. Some example sc
 ## Running Scripts Manually
 Note: This requires use of command prompt (Windows) or Terminal (Mac).
 
-1. In the command line, navigate to the folder in which the script you want to run is located. For example, to run the hello_car provided script, navigate to the AirSim folder, and then PythonClient->car
+1. In the command line, navigate to the folder in which the script you want to run is located. For example, to run the hello_car provided script, navigate to the AirSim folder, and then `cd PythonClient` then `cd car`.
 2. Open the Unity project that you want to start the script in and start running. Try this in the UnityDemo for hello_car by starting the Car Demo!!!(CHECK). 
-3. Switch back to the command line and run the python script. For hello_car, type: python hello_car.py
+3. Switch back to the command line and run the python script. For hello_car, type: `python hello_car.py`
 4. Switch back to the Unity project and watch the script run. 
