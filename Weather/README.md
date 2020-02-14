@@ -1,5 +1,4 @@
-# Weather Control notes
-
+# Weather Control Notes
 ## Using Standard Asset Particle System
 
 (https://docs.unity3d.com/Manual/ParticleSystems.html)
@@ -9,6 +8,10 @@
 2. Change settings in dust storm
 
     - change color
-    - change emission rate to 500
+    - change emission rate over time 
     - shape to box
-    - simulation speed changes how fast spawn and decay
+    - simulation speed changes how fast cycle
+    - change forces to look like blowing
+    - turn off size over lifetime to avoid loops
+    - max particles
+    
