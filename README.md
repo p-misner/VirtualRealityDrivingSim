@@ -13,7 +13,7 @@ Download the [Unity Engine](https://unity.com/). When instaled, Microsoft Air Si
 The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/Unity/README.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
 
 #### Build AirSim
-* Install Visual Studios 2017 (it is important that VS 2017 is installed rather than  any of the more current versions of Visual Studio)
+* Install Visual Studios 2017 (it is important that VS 2017 is installed rather than  any of the more current versions of Visual Studio). Make sure to select VC++ and Windows SDK 8.1 while installing VS 2017.
 * Once installed, open the `x64 Native Tools Command Prompt for VS 2017` after Air Sim has downloaded.
 ... This is different from the Windows Command Prompt and should look like the image below
 ![Adding components](./images/placeholder.png)
