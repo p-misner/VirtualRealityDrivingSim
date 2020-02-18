@@ -1,6 +1,6 @@
 # Infotainment Screen - Documentation
 
-1. create a cube game object (Game Object > 3D object > Cube)
+1. Create a cube game object (Game Object > 3D object > Cube)
 
 2. Move the cube to be a child of the instance of the realistic car prefab.
 It does not necessarily matter where in the hierarchy, it just needs to be a
