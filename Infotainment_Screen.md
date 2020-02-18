@@ -6,7 +6,7 @@
 It does not necessarily matter where in the hierarchy, it just needs to be a
 child so that it's movement is consistent with that of the rest of the car. 
 
-![Adding components](../images/Infotainment_Hierarchy.png).
+![Adding components](images/Infotainment_Hierarchy.png).
 
 3. For positioning the screen, it is good to (at least initially) place it
 as a child of car interior, with a transform of 0,0,0 - and then manually 
@@ -22,7 +22,7 @@ rectangular prism (.30,.18,.001 work well)
 the video to black out under shadows if not configured properly)
 
 
-![Adding components](../images/Infotainment_Video.png).
+![Adding components](images/Infotainment_Video.png).
 
 6. Add a video player component to the cube game object in the inspector
 
@@ -45,4 +45,4 @@ of the AudioClip variable in the Audio Source Component
 13. Ensure that the rest of these settings are in place:
 
 
-![Adding components](../images/Infotainment_Audio.png).
+![Adding components](images/Infotainment_Audio.png).
