@@ -1,6 +1,24 @@
 # Virtual Reality Driving Sim
 A guidebook for building and customizing a virtual reality driving simulator for use in human factors and psychology research
 ## How To Use This Project
+3. The folder `data` is not included in this github repo but contains a series of .js files that convert the .csv commuting data into a json. Without this folder, the visualization will not work.
+	*  ```javascript
+		const data = <put csv here>;
+		const rows = data.split('\n');
+		const fields = rows[0].split(',');
+		const dataRows = rows.slice(1);
+		const format = {
+			//put csv format here
+			VarA: Number,
+			VarB: String,
+			VarC: Number
+		};
+
+		module.exports = dataRows.map(r => r.split(',').reduce((prev, curr, i) => {
+			const field = fields[i];
+			prev[field] = format[field](curr);
+			return prev;
+		}, {}));```
 
 ## Getting Started
 These instructions will walk you through how to install Microsoft Air Sim in Unity and the project files  up and running on your local machine for development and testing purposes.
