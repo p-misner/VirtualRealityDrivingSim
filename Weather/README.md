@@ -42,13 +42,13 @@ The Unity Standard Assets package comes with a way to render visual effects usin
 Feel free to play around with other settings, as many interesting effects can be created beyond those mentioned here.
 
 ### Trigger a Particle System
-As mentioned above, the particle system is set to automatically start running when the scene is played. To trigger a particle system later in the scene, one method is shown below, by making the particle system of a 3D object which can then be activated. This method is designed to trigger the particle system with a collision.
+As mentioned above, the particle system is set to automatically start running when the scene is played. To trigger a particle system later in the scene, one method is shown below, by making the particle system of a 3D object which can then be activated. This method is designed to trigger the particle system with a collision. The StartFog.cs script can be used to start the fog and the StopFog.cs can be used to stop the fog.
 
 1. Create desired particle system as above.
 
 2. Add a cube to the scene (`GameObject > 3D object > cube`). This will be the trigger for the particle system, so name as appropriate and position where you want the fog to be triggered from (eg. in the path of the car so when the car reaches a certain point, the fog starts).
 
-3. Attach the StartFog.cs script to the fog trigger and drag the fog particle system into the `Fog` box under the script. 
+3. Attach the appropriate script to the fog trigger and drag the fog particle system into the `Fog` box under the script. 
 
 4. Uncheck the `Play On Awake` setting under the Fog Particle System, as described above. 
 
@@ -57,4 +57,6 @@ As mentioned above, the particle system is set to automatically start running wh
 6. Once you have confirmed the trigger works, you can uncheck the box next to `Mesh Renderer` under the trigger cube to make the trigger invisible.
    
      ![TriggerSettings](../images/WeatherTriggerSettings.PNG)
+     
+Note: StopFog.cs includes 2 ways to stop the fog, either by stopping emission (Stop()) or by immediately clearing all particles (Clear()). The first option creates a more gradual effect, while the second is very abrupt. Either or both can be used as needed by commenting out the other.
 
