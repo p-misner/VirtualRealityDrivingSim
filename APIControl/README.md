@@ -3,9 +3,10 @@ AirSim exposes APIs for car and simulation control and feedback. Some example sc
 
 ## Set-Up Requirements
 
-1. Make sure Unity and AirSim are installed and set-up and all requirements in [Getting Started](https://github.com/p-misner/VirtualRealityDrivingSim/blob/master/README.md) are completed (Windridge City not necessary).
-2. Make sure python (VERSION???) is installed on your computer. 
-3. In the file explorer for your AirSim project, navigate into the PythonClient folder. This is where you'll find all the provided example scripts for AirSim's APIs. Double click on setup.py, which should install all the necessary packages for Windows. (FOR MAC INSTALL SEPARATELY?????).
+1. Make sure Unity and AirSim are installed and set-up and all requirements in [Getting Started](https://github.com/p-misner/VirtualRealityDrivingSim/blob/master/README.md) are completed (Windridge City is not necessary).
+2. Make sure python is installed on your computer. AirSim recommends Python 3.5 or later, but some code may still work with 2.7.
+3. In the file explorer for your AirSim project, navigate into the `PythonClient` folder. This is where you'll find all the provided example scripts for AirSim's APIs. Double click on `install_packages`, which should install all the necessary packages for Windows.
+4. Required packages can also be updated with the `update_packages` file. 
 
 ## Running Scripts Manually
 Note: This requires use of command prompt (Windows) or Terminal (Mac).
@@ -29,5 +30,4 @@ Note: this script is set up to start when the trigger is clicked with the mouse.
 
 5. To change how the script is triggered, open the script and change `OnMouseDown()` to a different function, for example ` OnTriggerEnter(Collider other)` to trigger when the block is hit. 
 
- 
 
