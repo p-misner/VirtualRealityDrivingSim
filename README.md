@@ -7,7 +7,7 @@ These instructions will walk you through how to install Microsoft Air Sim in Uni
 
 ### System Requirements
 
-Download the [Unity Engine](https://unity.com/). When instaled, Microsoft Air Sim comes with some sample Unity scenes and a wrapper around the AirLib library to run as a native plugin in Unity.
+Download the [Unity Engine](https://unity.com/). When installed, Microsoft Air Sim comes with some sample Unity scenes and a wrapper around the AirLib library to run as a native plugin in Unity.
 
 ### Background Knowledge
 This guidebook assumes that users have prior knowledge of the basics of Unity -- i.e. creating GameObjects, C# scripts, physics properties and components, UI elements, and integrating assets from the Unity Asset store. Unity has a very detailed source of documentation, which you can check out at: https://docs.unity3d.com/Manual/index.html
