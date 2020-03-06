@@ -20,3 +20,4 @@
 4. Screen interaction for infotainment (aka the big Tesla screen)
 5. Variety of Weather
 6. Create ReadMe on how to add in/ customize the world in regards to building/ road design so it's not just the same seattle suburb
+7. Importing buildings from revit to unity
