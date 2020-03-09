@@ -9,8 +9,6 @@ Ensure the Car package from Unity Standard Assets is installed. All scripts used
 2. If the `CarUserControl` script is currently attached to the car, deselect it in the Inspector.
 3. Navigate to the `Standard Assets > Utility` folder, locate the `WaypointProgressTracker` script and drag it onto the car. Once the Waypoint Circuit (empty object created below ) has been made, drag that empty object into the `Circuit` category in the Inspector.
 4. In the hierarchy underneath your car prefab, there should be a folder titled `Helpers` with a child named `WaypointTargetObject`. Drag that object into the `Target` field in the inspector in both the `Waypoint Progress Tracker` script and the `Car AI Control` script
-
-![Adding components](../images/WaypointCircuitInspector.png).
 5. Ensure that in the inspector for the `Car AI Control` script, driving is checked.
 6. In the variables for `Car AI Control`, limit `Lateral Wander Distance` to around 0.01 and make sure that `Brake Distance` is set to `Never Brake`.
 
