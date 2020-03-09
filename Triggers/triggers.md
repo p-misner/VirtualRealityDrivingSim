@@ -4,9 +4,11 @@
 1. Create a cube that intersects with the path of the car
 2. Drag and attach the `Pause.cs` script to the box.
 3. Once attached in the inspector panel you can control the amount of time to stop the car
+4. The Speed variable controls the speed of the car after it is unpaused
 
 
-## Walking Pedestrian
+## Pedestrian
+### Walking Pedestrian
 1. Download the `PedestrianTrigger.cs` scrip from this folder and add into your Scripts folder in Unity
 2. Create a cube that intersects with the path of the car
 3. Drag and attach the script to the box.
@@ -17,3 +19,8 @@
 ### Building a NavMesh
 * For the character to walk, first you must create a NavMesh from the terrain. Refer to this [link](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html) for details
 
+## Leading Car
+(these are v rough, will be updated, sorry)
+1. Place an AI control car into the scene
+2. Tag it with 'Leading'
+3. To start/stop drag the `Start Stop Script` onto cubes and ensure correct variables are checked.
