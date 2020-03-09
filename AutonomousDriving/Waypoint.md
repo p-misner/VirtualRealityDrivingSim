@@ -12,6 +12,7 @@ Ensure the Car package from Unity Standard Assets is installed. All scripts used
 
 ![Adding components](../images/WaypointCircuitInspector.png).
 5. Ensure that in the inspector for the `Car AI Control` script, driving is checked.
+6. In the variables for `Car AI Control`, limit `Lateral Wander Distance` to around 0.01 and make sure that `Brake Distance` is set to `Never Brake`.
 
 
 ### Creating Waypoint Circuit
