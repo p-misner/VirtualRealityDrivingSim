@@ -18,11 +18,7 @@ The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/m
 #### Build AirSim
 * Install Visual Studios 2017 (it is important that VS 2017 is installed rather than  any of the more current versions of Visual Studio). Make sure to select VC++ and Windows SDK 8.1 while installing VS 2017.
 * Once installed, open the `x64 Native Tools Command Prompt for VS 2017` after Air Sim has downloaded.
-<<<<<<< HEAD
-This is different from the Windows Command Prompt and should look like the image below
-=======
-This is different from the Windows Command Prompt.
->>>>>>> 9af83576a57459f77efde266679b4648e13e9cb8
+	* This is different from the Windows Command Prompt.
 * Choose the directory you wish to download Air Sim into, then clone the repo: `git clone https://github.com/Microsoft/AirSim.git`
 * Once the repo is successfully cloned, go to the Air Sim directory using `cd AirSim`
 * Run `build.cmd` from the command line
